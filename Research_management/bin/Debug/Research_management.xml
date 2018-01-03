@@ -1,0 +1,328 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Research_management
+</name>
+</assembly>
+<members>
+<member name="P:Research_management.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources._1394392_background_images_for_login_page">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources._1RMP_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources._460511_isro_maiden_moon_craft_bangalore_countdown_group_of_people_human_interest_india_moon_people_photography_pallava_bagla_getty_images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources._700781main_ladee_2_full_0">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources._75345ce3b53e24e12fa3cb8778603b6e">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.CEAS">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.d">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.d1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.europeanspallationsource01">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.gdm3_6_login_screen_background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.gdm31">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.gen_Research_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.gen_Research_banner1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.grants_management_life_cycle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.grants_management_life_cycle1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.home_research_lab_9_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.img_researchHD_global1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.img_researchHD_global11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.img_researchHD_global12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.img_researchHD_global13">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.ImperialComputing_103_1___tojpeg_1414403785394_x1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.IN14_GSLV_104065f">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.intro_research">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.intro_research1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.isro_rocket_launch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.lg_aramco_hrc_6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.lg_aramco_hrc_61">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.Mars_mission_PTI">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.mk3_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.nasa_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.nasa_21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.nasa_22">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.nasa_isro_flight_sky_earth_space_rocket_min">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.nasa_isro_flight_sky_earth_space_rocket_min1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.nasa_isro_flight_sky_earth_space_rocket_min2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.NW_View_Phase1_960x400">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.Research__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__1___1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__1___1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__1___1_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__1___1_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__1___1_4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__1___1_5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__1___1_6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__2_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__2_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__2_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__2_4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__3_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research__3_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.Research_Liquid_Glass1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.Research_Liquid_Glass11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.Research_Liquid_Glass12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research_pic2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.research5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.researchlabs1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.researchlabs11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.rfroxm_8eu22csx_nxlqew">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.rfroxm_8eu22csx_nxlqew1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.SB_Intrexon_collab">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.SB_Intrexon_collab1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.sliderPic_5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.sliderPic_51">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.sliderPic_52">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.Student_Research_LSU4489_Chemistry_Laser_Lab">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.Student_Research_LSU4489_Chemistry_Laser_Lab1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.Student_Research_LSU4489_Chemistry_Laser_Lab2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.wallpapers_windows_vista_blue_backgrounds_desktop_screen_background_microsoft_operating_computer_systems">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Research_management.My.Resources.Resources.wallpapers_windows_vista_blue_backgrounds_desktop_screen_background_microsoft_operating_computer_systems1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Research_management.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

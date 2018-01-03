@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06F5EDBA-3F76-4389-8189-CCFBBDA20ED1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Research_management.My.MyApplication</StartupObject>
+    <RootNamespace>Research_management</RootNamespace>
+    <AssemblyName>Research_management</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Research_management.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Research_management.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.Designer.vb">
+      <DependentUpon>about.vb</DependentUpon>
+    </Compile>
+    <Compile Include="about.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagridcon.Designer.vb">
+      <DependentUpon>datagridcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datagridcon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagridfac.Designer.vb">
+      <DependentUpon>datagridfac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datagridfac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagridlab.Designer.vb">
+      <DependentUpon>datagridlab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datagridlab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagridmang.Designer.vb">
+      <DependentUpon>datagridmang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datagridmang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagridpl.Designer.vb">
+      <DependentUpon>datagridpl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datagridpl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagridpro.Designer.vb">
+      <DependentUpon>datagridpro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datagridpro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagridsc.Designer.vb">
+      <DependentUpon>datagridsc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datagridsc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delco.Designer.vb">
+      <DependentUpon>delco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="delco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delfac.Designer.vb">
+      <DependentUpon>delfac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="delfac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dellab.Designer.vb">
+      <DependentUpon>dellab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dellab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delman.Designer.vb">
+      <DependentUpon>delman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="delman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delpl.Designer.vb">
+      <DependentUpon>delpl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="delpl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delpr.Designer.vb">
+      <DependentUpon>delpr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="delpr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delsc.Designer.vb">
+      <DependentUpon>delsc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="delsc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editco.Designer.vb">
+      <DependentUpon>editco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="editco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editfac.Designer.vb">
+      <DependentUpon>editfac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="editfac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editlab.Designer.vb">
+      <DependentUpon>editlab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="editlab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editman.Designer.vb">
+      <DependentUpon>editman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="editman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editpl.Designer.vb">
+      <DependentUpon>editpl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="editpl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editpr.Designer.vb">
+      <DependentUpon>editpr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="editpr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editsc.Designer.vb">
+      <DependentUpon>editsc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="editsc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help.Designer.vb">
+      <DependentUpon>help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help_del.Designer.vb">
+      <DependentUpon>help_del.vb</DependentUpon>
+    </Compile>
+    <Compile Include="help_del.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help_edit.Designer.vb">
+      <DependentUpon>help_edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="help_edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help_ins.Designer.vb">
+      <DependentUpon>help_ins.vb</DependentUpon>
+    </Compile>
+    <Compile Include="help_ins.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help_search.Designer.vb">
+      <DependentUpon>help_search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="help_search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insco.Designer.vb">
+      <DependentUpon>insco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="insco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insfac.Designer.vb">
+      <DependentUpon>insfac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="insfac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inslab.Designer.vb">
+      <DependentUpon>inslab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inslab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insmanag.Designer.vb">
+      <DependentUpon>insmanag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="insmanag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inspl.Designer.vb">
+      <DependentUpon>inspl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inspl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inspr.Designer.vb">
+      <DependentUpon>inspr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inspr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inssc.Designer.vb">
+      <DependentUpon>inssc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inssc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="searchco.Designer.vb">
+      <DependentUpon>searchco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchlab.Designer.vb">
+      <DependentUpon>searchlab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchlab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchman.Designer.vb">
+      <DependentUpon>searchman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchpl.Designer.vb">
+      <DependentUpon>searchpl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchpl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchpr.Designer.vb">
+      <DependentUpon>searchpr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchpr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchsc.Designer.vb">
+      <DependentUpon>searchsc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchsc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="serachfac.Designer.vb">
+      <DependentUpon>serachfac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="serachfac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user.Designer.vb">
+      <DependentUpon>user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.Designer.vb">
+      <DependentUpon>welcome.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="start.Designer.vb">
+      <DependentUpon>start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagridcon.resx">
+      <DependentUpon>datagridcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagridfac.resx">
+      <DependentUpon>datagridfac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagridlab.resx">
+      <DependentUpon>datagridlab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagridmang.resx">
+      <DependentUpon>datagridmang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagridpl.resx">
+      <DependentUpon>datagridpl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagridpro.resx">
+      <DependentUpon>datagridpro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagridsc.resx">
+      <DependentUpon>datagridsc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delco.resx">
+      <DependentUpon>delco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delfac.resx">
+      <DependentUpon>delfac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dellab.resx">
+      <DependentUpon>dellab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delman.resx">
+      <DependentUpon>delman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delpl.resx">
+      <DependentUpon>delpl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delpr.resx">
+      <DependentUpon>delpr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delsc.resx">
+      <DependentUpon>delsc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editco.resx">
+      <DependentUpon>editco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editfac.resx">
+      <DependentUpon>editfac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editlab.resx">
+      <DependentUpon>editlab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editman.resx">
+      <DependentUpon>editman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editpl.resx">
+      <DependentUpon>editpl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editpr.resx">
+      <DependentUpon>editpr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editsc.resx">
+      <DependentUpon>editsc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help.resx">
+      <DependentUpon>help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help_del.resx">
+      <DependentUpon>help_del.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help_edit.resx">
+      <DependentUpon>help_edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help_ins.resx">
+      <DependentUpon>help_ins.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help_search.resx">
+      <DependentUpon>help_search.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insco.resx">
+      <DependentUpon>insco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insfac.resx">
+      <DependentUpon>insfac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inslab.resx">
+      <DependentUpon>inslab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insmanag.resx">
+      <DependentUpon>insmanag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inspl.resx">
+      <DependentUpon>inspl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inspr.resx">
+      <DependentUpon>inspr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inssc.resx">
+      <DependentUpon>inssc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchco.resx">
+      <DependentUpon>searchco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchlab.resx">
+      <DependentUpon>searchlab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchman.resx">
+      <DependentUpon>searchman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchpl.resx">
+      <DependentUpon>searchpl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchpr.resx">
+      <DependentUpon>searchpr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchsc.resx">
+      <DependentUpon>searchsc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="serachfac.resx">
+      <DependentUpon>serachfac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user.resx">
+      <DependentUpon>user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome.resx">
+      <DependentUpon>welcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start.resx">
+      <DependentUpon>start.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasa-isro-flight-sky-earth-space-rocket-min.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasa-isro-flight-sky-earth-space-rocket-min1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mars_mission_PTI.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mk3_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SB_Intrexon_collab.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NW-View-Phase1_960x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lg_aramco_hrc_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\europeanspallationsource01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\460511-isro-maiden-moon-craft-bangalore-countdown-group-of-people-human-interest-india-moon-people-photography-pallava-bagla-getty-images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\700781main_ladee_2_full_0.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IN14_GSLV_104065f.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SB_Intrexon_collab1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grants-management-life-cycle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasa-isro-flight-sky-earth-space-rocket-min2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasa-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isro_rocket_launch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grants-management-life-cycle1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasa-21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasa-22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lg_aramco_hrc_61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1394392-background-images-for-login-page.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %281%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %281%29 %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sliderPic_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_researchHD_global1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %281%29 %281%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gdm3.6-login-screen-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gdm3.6-login-screen-background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpapers-windows-vista-blue-backgrounds-desktop-screen-background-microsoft-operating-computer-systems.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpapers-windows-vista-blue-backgrounds-desktop-screen-background-microsoft-operating-computer-systems1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %282%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %282%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_researchHD_global11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Research-LSU4489-Chemistry-Laser-Lab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Research-Liquid-Glass1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Research-Liquid-Glass11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %281%29 %281%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rfroxm_8eu22csx_nxlqew.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-research-lab-9-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sliderPic_51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Research-Liquid-Glass12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro_research.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\75345ce3b53e24e12fa3cb8778603b6e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CEAS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_researchHD_global12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Research-LSU4489-Chemistry-Laser-Lab1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\researchlabs1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gen Research banner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Research %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %283%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1RMP_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %281%29 %281%294.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research-pic2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImperialComputing-103%281%29--tojpeg_1414403785394_x1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gen Research banner1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro_research1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\researchlabs11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student-Research-LSU4489-Chemistry-Laser-Lab2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_researchHD_global13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %282%294.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rfroxm_8eu22csx_nxlqew1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sliderPic_52.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %281%29 %281%295.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research %281%29 %281%296.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
